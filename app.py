@@ -11,7 +11,7 @@ from sqlalchemy.orm import scoped_session, sessionmaker
 import datetime
 import xlwt
 from fpdf import FPDF
-
+#vvvvhhd
 app = Flask(__name__)
 bcrypt = Bcrypt(app)
 app.secret_key = os.urandom(24)
